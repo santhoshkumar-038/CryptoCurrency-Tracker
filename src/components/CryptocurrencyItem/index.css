@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.currency-name {
+  color: #ffffff;
+}
+.currency {
+  display: flex;
+}
+.currency-image {
+  height: 30px;
+  width: 30px;
+}
+.usd-value {
+  color: #ffffff;
+}
+.euro-value {
+  color: #ffffff;
+}
+.currency-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.currency-values {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+@media screen and (max-width: 576px) {
+  .currency-values {
+    width: 60%;
+  }
+}

@@ -1,0 +1,95 @@
+/* Write your CSS code here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 120vh;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+.crypto-currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.heading {
+  color: #00e7ff;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #00e7ff;
+  width: 60%;
+  border-radius: 10px;
+}
+.coin-type-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.usd-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.euro-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding: 10px;
+}
+.currencies {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.currency-values-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .image {
+    width: 80%;
+  }
+  .table-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100%;
+  }
+  .table-container {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .table-container {
+    width: 100%;
+  }
+  .crypto-currency-container {
+    padding: 10px;
+  }
+  .currencies {
+    width: 60%;
+  }
+}
